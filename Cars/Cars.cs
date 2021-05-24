@@ -22,10 +22,7 @@ namespace Cars
 
     public static class MyLinq
     {
-        public static IEnumerable<T> ToX<T>(this IEnumerable<T> l)
-        {
-            return l.Where(y => y.Equals("SDFAD"));
-        }    
+            
     }
        
 }
